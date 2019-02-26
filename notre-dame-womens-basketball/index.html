@@ -1,32 +1,50 @@
----
-layout: default
-customjs: "../notre-dame-womens-basketball/script.js"
----
-<div class="wrapper">
-  <div class="work">
-    <h1>The History of Notre Dame Women's Basketball</h1>
-  </div>
+<!DOCTYPE html>
+  <head>
+    <title>Notre Dame Women's Basketball</title>
+    <meta name="author" content="Justin Shotwell">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="name">
+          <h1>Justin Shotwell</h1>
+          <h2>Data Visualization</h2>
+        </div>
+      </header>
+      <div class="work">
+        <h1>The History of Notre Dame Women's Basketball</h1>
+      </div>
 
-  <div class="text">
+      <div class="text">
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio ut sem nulla pharetra diam sit amet nisl suscipit. Cras sed felis eget velit aliquet sagittis id consectetur. Feugiat in fermentum posuere urna nec tincidunt praesent semper. Pellentesque habitant morbi tristique senectus et netus et malesuada. Varius duis at consectetur lorem donec massa sapien faucibus. Quisque non tellus orci ac auctor augue. Tincidunt tortor aliquam nulla facilisi cras fermentum. Commodo ullamcorper a lacus vestibulum. Maecenas sed enim ut sem. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum.</p>
-    </br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio ut sem nulla pharetra diam sit amet nisl suscipit. Cras sed felis eget velit aliquet sagittis id consectetur. Feugiat in fermentum posuere urna nec tincidunt praesent semper. Pellentesque habitant morbi tristique senectus et netus et malesuada. Varius duis at consectetur lorem donec massa sapien faucibus. Quisque non tellus orci ac auctor augue. Tincidunt tortor aliquam nulla facilisi cras fermentum. Commodo ullamcorper a lacus vestibulum. Maecenas sed enim ut sem. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum.</p>
+        </br>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio ut sem nulla pharetra diam sit amet nisl suscipit. Cras sed felis eget velit aliquet sagittis id consectetur. Feugiat in fermentum posuere urna nec tincidunt praesent semper. Pellentesque habitant morbi tristique senectus et netus et malesuada. Varius duis at consectetur lorem donec massa sapien faucibus. Quisque non tellus orci ac auctor augue. Tincidunt tortor aliquam nulla facilisi cras fermentum. Commodo ullamcorper a lacus vestibulum. Maecenas sed enim ut sem. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio ut sem nulla pharetra diam sit amet nisl suscipit. Cras sed felis eget velit aliquet sagittis id consectetur. Feugiat in fermentum posuere urna nec tincidunt praesent semper. Pellentesque habitant morbi tristique senectus et netus et malesuada. Varius duis at consectetur lorem donec massa sapien faucibus. Quisque non tellus orci ac auctor augue. Tincidunt tortor aliquam nulla facilisi cras fermentum. Commodo ullamcorper a lacus vestibulum. Maecenas sed enim ut sem. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum.</p>
+        </div>
+
+      <div id="chart"></div>
+
+      <div class="text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio ut sem nulla pharetra diam sit amet nisl suscipit. Cras sed felis eget velit aliquet sagittis id consectetur. Feugiat in fermentum posuere urna nec tincidunt praesent semper. Pellentesque habitant morbi tristique senectus et netus et malesuada. Varius duis at consectetur lorem donec massa sapien faucibus. Quisque non tellus orci ac auctor augue. Tincidunt tortor aliquam nulla facilisi cras fermentum. Commodo ullamcorper a lacus vestibulum. Maecenas sed enim ut sem. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum.</p></br>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio ut sem nulla pharetra diam sit amet nisl suscipit. Cras sed felis eget velit aliquet sagittis id consectetur. Feugiat in fermentum posuere urna nec tincidunt praesent semper. Pellentesque habitant morbi tristique senectus et netus et malesuada. Varius duis at consectetur lorem donec massa sapien faucibus. Quisque non tellus orci ac auctor augue. Tincidunt tortor aliquam nulla facilisi cras fermentum. Commodo ullamcorper a lacus vestibulum. Maecenas sed enim ut sem. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum.</p>
+        </br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio ut sem nulla pharetra diam sit amet nisl suscipit. Cras sed felis eget velit aliquet sagittis id consectetur. Feugiat in fermentum posuere urna nec tincidunt praesent semper. Pellentesque habitant morbi tristique senectus et netus et malesuada. Varius duis at consectetur lorem donec massa sapien faucibus. Quisque non tellus orci ac auctor augue. Tincidunt tortor aliquam nulla facilisi cras fermentum. Commodo ullamcorper a lacus vestibulum. Maecenas sed enim ut sem. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum.</p>
+        </br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio ut sem nulla pharetra diam sit amet nisl suscipit. Cras sed felis eget velit aliquet sagittis id consectetur. Feugiat in fermentum posuere urna nec tincidunt praesent semper. Pellentesque habitant morbi tristique senectus et netus et malesuada. Varius duis at consectetur lorem donec massa sapien faucibus. Quisque non tellus orci ac auctor augue. Tincidunt tortor aliquam nulla facilisi cras fermentum. Commodo ullamcorper a lacus vestibulum. Maecenas sed enim ut sem. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum.</p>
+        </br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio ut sem nulla pharetra diam sit amet nisl suscipit. Cras sed felis eget velit aliquet sagittis id consectetur. Feugiat in fermentum posuere urna nec tincidunt praesent semper. Pellentesque habitant morbi tristique senectus et netus et malesuada. Varius duis at consectetur lorem donec massa sapien faucibus. Quisque non tellus orci ac auctor augue. Tincidunt tortor aliquam nulla facilisi cras fermentum. Commodo ullamcorper a lacus vestibulum. Maecenas sed enim ut sem. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum.</p>
+      </div>
+      <footer class="footer">
+        <h2><a href="X">Github</a></h2>
+        <h2><a href="X">Home</a></h2>
+      </footer>
     </div>
-
-  <div id="chart"></div>
-
-  <div class="text">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio ut sem nulla pharetra diam sit amet nisl suscipit. Cras sed felis eget velit aliquet sagittis id consectetur. Feugiat in fermentum posuere urna nec tincidunt praesent semper. Pellentesque habitant morbi tristique senectus et netus et malesuada. Varius duis at consectetur lorem donec massa sapien faucibus. Quisque non tellus orci ac auctor augue. Tincidunt tortor aliquam nulla facilisi cras fermentum. Commodo ullamcorper a lacus vestibulum. Maecenas sed enim ut sem. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum.</p></br>
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio ut sem nulla pharetra diam sit amet nisl suscipit. Cras sed felis eget velit aliquet sagittis id consectetur. Feugiat in fermentum posuere urna nec tincidunt praesent semper. Pellentesque habitant morbi tristique senectus et netus et malesuada. Varius duis at consectetur lorem donec massa sapien faucibus. Quisque non tellus orci ac auctor augue. Tincidunt tortor aliquam nulla facilisi cras fermentum. Commodo ullamcorper a lacus vestibulum. Maecenas sed enim ut sem. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum.</p>
-    </br>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio ut sem nulla pharetra diam sit amet nisl suscipit. Cras sed felis eget velit aliquet sagittis id consectetur. Feugiat in fermentum posuere urna nec tincidunt praesent semper. Pellentesque habitant morbi tristique senectus et netus et malesuada. Varius duis at consectetur lorem donec massa sapien faucibus. Quisque non tellus orci ac auctor augue. Tincidunt tortor aliquam nulla facilisi cras fermentum. Commodo ullamcorper a lacus vestibulum. Maecenas sed enim ut sem. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum.</p>
-    </br>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio ut sem nulla pharetra diam sit amet nisl suscipit. Cras sed felis eget velit aliquet sagittis id consectetur. Feugiat in fermentum posuere urna nec tincidunt praesent semper. Pellentesque habitant morbi tristique senectus et netus et malesuada. Varius duis at consectetur lorem donec massa sapien faucibus. Quisque non tellus orci ac auctor augue. Tincidunt tortor aliquam nulla facilisi cras fermentum. Commodo ullamcorper a lacus vestibulum. Maecenas sed enim ut sem. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum.</p>
-    </br>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio ut sem nulla pharetra diam sit amet nisl suscipit. Cras sed felis eget velit aliquet sagittis id consectetur. Feugiat in fermentum posuere urna nec tincidunt praesent semper. Pellentesque habitant morbi tristique senectus et netus et malesuada. Varius duis at consectetur lorem donec massa sapien faucibus. Quisque non tellus orci ac auctor augue. Tincidunt tortor aliquam nulla facilisi cras fermentum. Commodo ullamcorper a lacus vestibulum. Maecenas sed enim ut sem. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum.</p>
-  </div>
-
-</div>
+  <body>
+</html>
