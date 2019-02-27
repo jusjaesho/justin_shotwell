@@ -53,10 +53,6 @@ a:hover {
   margin: 0 1em 3em;
 }
 
-.name h1 {
-  color: #2E86AB;
-}
-
 .work h1 {
   margin-bottom: 1em;
 }
@@ -86,4 +82,12 @@ a:hover {
 
 .axis path, .axis line {
   visibility: hidden;
+}
+
+.name a {
+  color: #2E86AB;
+}
+
+.name a:hover {
+  border-bottom: none;
 }
